@@ -37,6 +37,8 @@ public class ClientMain {
 		String recvMessage = socket.recvStr();
 		
 		System.out.println(recvMessage);
+
+		System.exit(0);
 	}
 
 }
